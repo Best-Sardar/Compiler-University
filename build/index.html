@@ -56,12 +56,12 @@
   <title>Compiler :D</title>
 </head>
 
-<body>
-  <div class="container">
+<body style="min-width: 600px">
+  <div class="container" style="min-width: 600px">
     <div class="row" id="f1" style="display: none">
-      <div class="form-group form1">
-        <label for="inputG">input garmmer</label>
-        <textarea class="form-control" name="inputG" id="inputG" rows="3"></textarea>
+      <div class="form-group form1">        
+        <label for="inputG">input garmmer <span id="rulespan" class="dd" style="font-size: 17px;text-shadow: none">click for rules</span></label>
+        <textarea class="form-control" name="inputG" id="inputG" rows="5"></textarea>
         <button type="button" id="sub" class="btn success btn-lg btn-block">((: See answer :))</button>
       </div>
     </div>
@@ -88,6 +88,7 @@
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->  
+
   <script
 			  src="https://code.jquery.com/jquery-3.3.1.min.js"
 			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -96,6 +97,18 @@
     <!-- crossorigin="anonymous"></script> -->
   <script src="../node_modules/bootstrap/js/dist/popover.js"></script>
   <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('#rulespan').click(function(e){
+        alert('use & for landa');
+        alert('use | for separate right side \r\n\r\n');
+        alert('use -> for separate right side from left side \r\n\r\n');
+        alert('dont have a empty line in end and between of grammer\r\n\r\n');
+        alert('simple: \r\n E -> TQ \r\n Q -> +TQ | & \r\n T -> FW \r\n W -> *FW | & \r\n F -> (E) | i\r\n\r\n');
+        alert('simple: \r\n S -> iEtSR | a \r\n R -> eS | & \r\n E -> b \r\n\r\n');
+      })
+    })
+  </script>
   <script type="text/javascript" src="bundle.js"></script>
 </body>
 
