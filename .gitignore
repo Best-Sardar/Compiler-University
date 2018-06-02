@@ -2,3 +2,4 @@ node_modules/
 app/
 webpack.config.js
 .vscode
+!node_modules/bootstrap
