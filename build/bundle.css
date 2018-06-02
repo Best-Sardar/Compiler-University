@@ -1,0 +1,53 @@
+body{
+    /* background-color: violet */
+    background: linear-gradient(to right bottom, #6C567B,#C06C84,#F67280,#F8B195);
+    height: 500vh; 
+}
+
+.form1{
+    margin-top: 80px;
+    width: 100%;
+    /* background-color: indigo; */
+    background: linear-gradient(-20deg, rgb(132, 253, 121) 35% , #12CC94, #12CC94 );
+    /* border-radius: 20%; */
+    padding: 65px;
+    border-top-right-radius: 135px 133px;
+    border-left : solid green 10px ; 
+    border-bottom: solid green 10px ;
+}
+
+.form1 label {
+    margin-bottom: 20px;
+    color: rgb(255, 252, 104);
+    font-weight: bold;
+    font-size: 2.5em;
+    font-family: sans-serif;
+    text-shadow: 2px 3px 5px,3px 8px 5px green;
+}
+
+textarea {
+    background-color:rgb(198, 255, 187) !important;
+    font-weight: bold;
+    font-size: 18px !important;
+    box-shadow: 4px 5px 10px beige;
+}
+#sub{
+    margin-top: 20px;
+    background: transparent;
+    color: green;
+    border: solid 7px  rgb(251, 255, 15) ;
+    background: linear-gradient(to right , rgb(251, 255, 15) , rgb(254, 255, 188)  , rgb(251, 255, 21) );
+    box-shadow: 2px 5px 16px azure;
+
+}
+
+.form2{
+    width: 103%;
+    background: linear-gradient(-20deg, rgb(132, 253, 121) 35% , #12CC94, #12CC94 );
+    padding: 65px;
+    border-bottom-left-radius: 135px 133px;
+    border-right : solid green 10px ;
+    border-top: solid green 10px;
+    margin: 0px -16px
+}
+

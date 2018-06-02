@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bundle.css">
+
+
+  <style>
+  	.jello-vertical{-webkit-animation:jello-vertical .9s infinite both;animation:jello-vertical .9s infinite both}
+  	.sardar_table td{
+		  padding:20px;
+		  text-align:center;		
+	}
+	#finalblockshow{display:none;}
+
+	@media only screen and (max-width: 800px) {
+    #finalblock {
+        display: none;
+    }
+	#finalblockshow{display:block}
+	#finalblockshow td {width:100%}
+}
+
+	.runing{
+		color:#218E07;
+	}
+	.stop{
+		color:#B50104;
+	}
+	
+	.mm{color:#7A1AE4}
+	.hh{color:#BB1CE5}
+	.dd{color:#F900E9}
+	.all{color:#CB0686}
+	
+	.mm1 a{color:#ED9472 !important; border-bottom: 1px dotted #ED9472; margin-right:7px}
+	.hh1 a{color:#965515 !important; border-bottom: 1px dashed #965515; margin-right:7px}
+	.dd1 a{color:#743B08 !important; border-bottom: 1px groove #743B08;margin-right:4px}	
+	
+	.mm1 a:hover{text-decoration:none; border-bottom: 0px dotted #ED9472; margin-right:7px; color:#A09605 !important;}
+	.hh1 a:hover{text-decoration:none; border-bottom: 0px dotted #ED9472; margin-right:7px; color:#A09605 !important;}
+	.dd1 a:hover{text-decoration:none; border-bottom: 0px dotted #ED9472; margin-right:4px; color:#A09605 !important;}	
+	
+	
+	
+	
+  </style>
+
+
+  <title>Compiler :D</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row" id="f1" style="display: none">
+      <div class="form-group form1">
+        <label for="inputG">input garmmer</label>
+        <textarea class="form-control" name="inputG" id="inputG" rows="3"></textarea>
+        <button type="button" id="sub" class="btn success btn-lg btn-block">((: See answer :))</button>
+      </div>
+    </div>
+
+    <div class="row form2" id="f2" style="display: none">
+
+      <div class="col-xs-12">
+        <div class="table-responsive">
+          <table class="table table-bordered table-hover" style="table-layout: fixed;text-align: center">
+            <thead id="thead">
+
+
+
+            </thead>
+            <tbody id="tbody">
+     
+            </tbody>
+          </table>
+        </div>
+        <!--end of .table-responsive-->
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->  
+  <script
+			  src="https://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			  crossorigin="anonymous"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" -->
+    <!-- crossorigin="anonymous"></script> -->
+  <script src="../node_modules/bootstrap/js/dist/popover.js"></script>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="bundle.js"></script>
+</body>
+
+</html>
