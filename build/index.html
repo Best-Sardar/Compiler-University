@@ -27,26 +27,8 @@
 	#finalblockshow td {width:100%}
 }
 
-	.runing{
-		color:#218E07;
-	}
-	.stop{
-		color:#B50104;
-	}
-	
-	.mm{color:#7A1AE4}
-	.hh{color:#BB1CE5}
-	.dd{color:#F900E9}
-	.all{color:#CB0686}
-	
-	.mm1 a{color:#ED9472 !important; border-bottom: 1px dotted #ED9472; margin-right:7px}
-	.hh1 a{color:#965515 !important; border-bottom: 1px dashed #965515; margin-right:7px}
-	.dd1 a{color:#743B08 !important; border-bottom: 1px groove #743B08;margin-right:4px}	
-	
-	.mm1 a:hover{text-decoration:none; border-bottom: 0px dotted #ED9472; margin-right:7px; color:#A09605 !important;}
-	.hh1 a:hover{text-decoration:none; border-bottom: 0px dotted #ED9472; margin-right:7px; color:#A09605 !important;}
-	.dd1 a:hover{text-decoration:none; border-bottom: 0px dotted #ED9472; margin-right:4px; color:#A09605 !important;}	
-	
+
+
 	
 	
 	
@@ -60,7 +42,7 @@
   <div class="container" style="min-width: 600px">
     <div class="row" id="f1" style="display: none">
       <div class="form-group form1">        
-        <label for="inputG">input garmmer <span id="rulespan" class="dd" style="font-size: 17px;text-shadow: none">click for rules</span></label>
+        <label for="inputG">input grammer <span id="rulespan" class="dd" style="font-size: 17px;text-shadow: none">click for rules</span></label>
         <textarea class="form-control" name="inputG" id="inputG" rows="5"></textarea>
         <button type="button" id="sub" class="btn success btn-lg btn-block">((: See answer :))</button>
       </div>
@@ -76,7 +58,7 @@
 
 
         <div class="table-responsive">
-          <table class="table table-bordered table-hover" style="table-layout: fixed;text-align: center;background: linear-gradient(45deg ,rgb(186, 184, 184) 20%,rgb(239, 239, 239),rgb(186, 184, 184));margin-top: 20px">
+          <table class="table table-bordered table-hover" style="table-layout: fixed;text-align: center;background-color: rgb(255, 246, 206) ;margin-top: 20px">
             <thead id="thead">
             </thead>
             <tbody id="tbody">
@@ -99,8 +81,21 @@
     <!-- crossorigin="anonymous"></script> -->
   <script src="../node_modules1/bootstrap/js/dist/popover.js"></script>
   <script src="../node_modules1/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bubbly-bg@1.0.0/dist/bubbly-bg.js"></script>  
   <script>
     $(document).ready(function(){
+      bubbly({
+          colorStart: "#fff4e6",
+          colorStop: "#ffe9e4",
+          blur: 1,
+          compose: "source-over",
+          bubbleFunc: () => `hsla(${Math.random() * 50}, 100%, 50%, .3)`
+      });
+      // bubbly({
+      //     colorStart: "#111",
+      //     colorStop: "#422",
+      //     bubbleFunc: () => `hsla(0, 100%, 50%, ${Math.random() * 0.25})`
+      // });
       $('#rulespan').click(function(e){
         alert('use & for landa');
         alert('use | for separate right side \r\n\r\n');
@@ -108,7 +103,10 @@
         alert('dont have a empty line in end and between of grammer\r\n\r\n');
         alert('simple: \r\n E -> TQ \r\n Q -> +TQ | & \r\n T -> FW \r\n W -> *FW | & \r\n F -> (E) | i\r\n\r\n');
         alert('simple: \r\n S -> iEtSR | a \r\n R -> eS | & \r\n E -> b \r\n\r\n');
-      })
+      });
+
+      // $('div.table-responsive table').css("background-color","rgb(255, 246, 206)" );
+
     })
   </script>
   <script type="text/javascript" src="bundle.js"></script>

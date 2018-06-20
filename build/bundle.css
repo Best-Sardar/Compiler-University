@@ -7,13 +7,14 @@ body{
 .form1{
     margin-top: 80px;
     width: 100%;
+    background-color: #955858cc;
     /* background-color: indigo; */
-    background: linear-gradient(-20deg, rgb(132, 253, 121) 35% , #12CC94, #12CC94 );
+    /* background: linear-gradient(-20deg, rgb(132, 253, 121) 35% , #12CC94, #12CC94 ); */
     /* border-radius: 20%; */
     padding: 65px;
     border-top-right-radius: 135px 133px;
-    border-left : solid green 10px ; 
-    border-bottom: solid green 10px ;
+    border-left : solid #b62d25 10px ; 
+    border-bottom: solid #b62d25 10px ;
 }
 
 .form1 label {
@@ -26,7 +27,8 @@ body{
 }
 
 textarea {
-    background-color:rgb(198, 255, 187) !important;
+    /* background-color:rgb(198, 255, 187) !important; */
+    background-color: rgb(255, 246, 206) !important;
     font-weight: bold;
     font-size: 18px !important;
     box-shadow: 4px 5px 10px beige;
@@ -35,19 +37,22 @@ textarea {
     margin-top: 20px;
     background: transparent;
     color: green;
-    border: solid 7px  rgb(251, 255, 15) ;
-    background: linear-gradient(to right , rgb(251, 255, 15) , rgb(254, 255, 188)  , rgb(251, 255, 21) );
+    /* border: solid 7px  rgb(251, 255, 15) ; */
+    border: solid 4px rgb(233, 132, 102);
+    /* background: linear-gradient(to right , rgb(251, 255, 15) , rgb(254, 255, 188)  , rgb(251, 255, 21) ); */
+    background-color: #ffcea6;
     box-shadow: 2px 5px 16px azure;
 
 }
 
 .form2{
     width: 103%;
-    background: linear-gradient(-20deg, rgb(132, 253, 121) 35% , #12CC94, #12CC94 );
+    /* background: linear-gradient(-20deg, rgb(132, 253, 121) 35% , #12CC94, #12CC94 ); */
     padding: 65px;
+    background-color: #955858cc;
     border-bottom-left-radius: 135px 133px;
-    border-right : solid green 10px ;
-    border-top: solid green 10px;
+    border-right : solid #b62d25 10px ;
+    border-top: solid #b62d25 10px;
     margin: 0px -16px
 }
 
