@@ -21,3 +21,14 @@ F -> (E) | i
 S -> iEtSR | a
 R -> eS | &
 E -> b
+
+
+--------------
+
+
+S->ABCSDE|f
+A->aA|B
+B->bB|&
+C->cC|d
+D->dD|bc
+E->gE|&
